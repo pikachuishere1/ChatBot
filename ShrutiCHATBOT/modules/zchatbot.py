@@ -12,7 +12,7 @@ from ShrutiCHATBOT.database.chats import add_served_chat
 from ShrutiCHATBOT.database.users import add_served_user
 from config import MONGO_URL
 from ShrutiCHATBOT import ShrutiCHATBOT, mongo, LOGGER, db
-from ShrutiCHATBOT.mplugin.helpers import chatai, CHATBOT_ON, languages
+from ShrutiCHATBOT.modules.helpers import chatai, CHATBOT_ON, languages
 from ShrutiCHATBOT.modules.helpers import (
     ABOUT_BTN,
     ABOUT_READ,
