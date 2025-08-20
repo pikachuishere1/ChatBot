@@ -3,7 +3,6 @@ import asyncio
 import importlib
 import logging
 import threading
-from flask import Flask
 import config
 from ShrutiCHATBOT import ID_CHATBOT
 from pyrogram import idle
@@ -98,3 +97,9 @@ async def anony_boot():
 
     LOGGER.info(f"🎉 @{ShrutiCHATBOT.username} is fully up & running! 🚀")
     await idle()
+
+
+# 🚀 Start Point
+if __name__ == "__main__":
+    asyncio.get_event_loop().run_until_complete(anony_boot())
+    LOGGER.info("🛑 Stopping ShrutiCHATBOT Bot...")
