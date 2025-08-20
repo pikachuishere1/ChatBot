@@ -98,22 +98,3 @@ async def anony_boot():
 
     LOGGER.info(f"🎉 @{ShrutiCHATBOT.username} is fully up & running! 🚀")
     await idle()
-
-
-# 🌍 Flask App
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return "✨ ShrutiCHATBOT is running successfully! 🚀"
-
-def run_flask():
-    app.run(host="0.0.0.0", port=8000)
-
-
-# 🚀 Start Point
-if __name__ == "__main__":
-    flask_thread = threading.Thread(target=run_flask)
-    flask_thread.start()
-    asyncio.get_event_loop().run_until_complete(anony_boot())
-    LOGGER.info("🛑 Stopping ShrutiCHATBOT Bot...")
