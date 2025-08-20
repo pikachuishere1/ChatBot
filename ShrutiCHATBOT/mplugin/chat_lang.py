@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from ShrutiCHATBOT import ShrutiCHATBOT as app, mongo, db
-from MukeshAPI import api
+#from MukeshAPI import api
 import asyncio
 from ShrutiCHATBOT.mplugin.helpers import chatai, languages
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery
