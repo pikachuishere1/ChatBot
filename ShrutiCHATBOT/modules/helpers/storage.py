@@ -14,7 +14,7 @@ CHAT_STORAGE = [
     "mongodb+srv://chatbot10:j@cluster0.9esnn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
 ]
 
-SHRUTI = MongoCli(random.choice(CHAT_STORAGE))
-chatdb = SHRUTI.Anonymous
+VIPBOY = MongoCli(random.choice(CHAT_STORAGE))
+chatdb = VIPBOY.Anonymous
 chatai = chatdb.Word.WordDb
-storeai = SHRUTI.Anonymous.Word.NewWordDb  
+storeai = VIPBOY.Anonymous.Word.NewWordDb  
