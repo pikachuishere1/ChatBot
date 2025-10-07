@@ -16,7 +16,7 @@ MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://telegramescrower_db_user:EoWsX
 
 # Owner / Admin
 OWNER_ID = int(os.getenv("OWNER_ID", "7804917014"))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", " CertifiedSexer")
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", "CertifiedSexer")
 
 # Support / Updates
 SUPPORT_GRP = os.getenv("SUPPORT_GRP", "Zenxode")
